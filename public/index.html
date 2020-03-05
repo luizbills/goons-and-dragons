@@ -52,6 +52,13 @@
 		.links {
 			margin-bottom: 2rem;
 		}
+
+		@media screen and (min-width: 30em) {
+			/* hide at 'smartphone' screens */
+			.hide-ns {
+				display: none!important;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -59,7 +66,7 @@
 		<img class="img-title" src="title.svg" alt="Goons & Dragons">
 		<h1 class="sr-only">Goons & Dragons</h1>
 
-		<p class="subtitle"><em>A <a href="https://natetreme.com/tunnelgoons" rel="nofollow">Tunnel Goons</a> hack created by <a href="https://www.luizpb.com">Luiz Bills</a>.
+		<p class="subtitle"><em>A <a href="https://natetreme.com/tunnelgoons" rel="nofollow">Tunnel Goons</a> hack <br class="hide-ns">created by <a href="https://www.luizpb.com">Luiz Bills</a>.
 		<br>License: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>.</em></p>
 	</header>
 
